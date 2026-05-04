@@ -1,0 +1,9 @@
+head_type,relation,tail_type,count
+POI,hasType,Cate,372224
+Road,in,Area,329925
+POI,locatesAt,Area,318593
+POI,locatesAt,Block,313805
+Block,belongsTo,Area,91841
+Area,borderBy,Area,19312
+Area,belongsTo,Ward,2257
+Ward,hasODFlow,Ward,529
