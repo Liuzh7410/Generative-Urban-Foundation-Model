@@ -1,0 +1,136 @@
+{
+  "node_counts": [
+    {
+      "label": "POI",
+      "count": 318755
+    },
+    {
+      "label": "Road",
+      "count": 282282
+    },
+    {
+      "label": "Block",
+      "count": 92767
+    },
+    {
+      "label": "Area",
+      "count": 3150
+    },
+    {
+      "label": "Ward",
+      "count": 23
+    },
+    {
+      "label": "Cate",
+      "count": 14
+    }
+  ],
+  "relationship_counts": [
+    {
+      "relation": "locatesAt",
+      "count": 632398
+    },
+    {
+      "relation": "hasType",
+      "count": 372224
+    },
+    {
+      "relation": "in",
+      "count": 329925
+    },
+    {
+      "relation": "belongsTo",
+      "count": 94098
+    },
+    {
+      "relation": "borderBy",
+      "count": 19312
+    },
+    {
+      "relation": "hasODFlow",
+      "count": 529
+    }
+  ],
+  "node_property_counts": [
+    {
+      "property": "id",
+      "count": 696991
+    },
+    {
+      "property": "geometry",
+      "count": 693769
+    },
+    {
+      "property": "address",
+      "count": 411522
+    },
+    {
+      "property": "lon",
+      "count": 408314
+    },
+    {
+      "property": "lat",
+      "count": 408314
+    },
+    {
+      "property": "name",
+      "count": 321939
+    },
+    {
+      "property": "poi_id",
+      "count": 318755
+    },
+    {
+      "property": "ptypes",
+      "count": 318755
+    },
+    {
+      "property": "source",
+      "count": 318755
+    },
+    {
+      "property": "legacy_poi_id",
+      "count": 318268
+    },
+    {
+      "property": "busc",
+      "count": 313817
+    },
+    {
+      "property": "road_id",
+      "count": 282282
+    },
+    {
+      "property": "rtype",
+      "count": 282282
+    },
+    {
+      "property": "length",
+      "count": 282282
+    },
+    {
+      "property": "poi_count",
+      "count": 61242
+    },
+    {
+      "property": "prefecture",
+      "count": 3173
+    },
+    {
+      "property": "town_code",
+      "count": 3150
+    },
+    {
+      "property": "ward_name",
+      "count": 3150
+    },
+    {
+      "property": "raw_name",
+      "count": 3147
+    },
+    {
+      "property": "ward_code",
+      "count": 23
+    }
+  ]
+}

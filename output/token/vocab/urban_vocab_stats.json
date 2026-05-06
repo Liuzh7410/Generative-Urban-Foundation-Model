@@ -1,0 +1,102 @@
+{
+  "tokenizer": "kg_vocab_v3_semidecoupled",
+  "source": "neo4j",
+  "num_sequences": 3150,
+  "num_lm_samples": 3150,
+  "vocab_size": 3888,
+  "min_sequence_length": 47,
+  "max_sequence_length": 146,
+  "avg_sequence_length": 135.8829,
+  "median_sequence_length": 137.0,
+  "min_freq": 1,
+  "context_length": 256,
+  "top_poi_cates": 3,
+  "top_road_types": 3,
+  "top_neighbors": 5,
+  "top_od_flows": 1,
+  "special_tokens": {
+    "<PAD>": 0,
+    "<BOS>": 1,
+    "<EOS>": 2,
+    "<UNK>": 3
+  },
+  "token_type_counts": {
+    "<": 13,
+    "OD_RANK_": 1,
+    "BIN_": 3,
+    "AREA_SIZE_": 0,
+    "AREA_": 3151,
+    "WARD_": 24,
+    "POI_": 0,
+    "REL_": 2,
+    "CATE_": 14,
+    "ROADTYPE_": 6,
+    "COUNT_": 0,
+    "DENSITY_": 0,
+    "DIST_": 7,
+    "DIR_": 8,
+    "GRID_": 639,
+    "BORDER_LEN_": 0,
+    "COMPACTNESS_": 0,
+    "BLOCK_": 2,
+    "TOTAL_TRIPS_": 0,
+    "RAIL_": 0,
+    "BUS_": 0,
+    "CAR_": 0,
+    "WALK_": 0,
+    "LENGTH_": 0,
+    "OTHER": 18
+  },
+  "schema_node_counts": [
+    {
+      "label": "POI",
+      "count": 318755
+    },
+    {
+      "label": "Road",
+      "count": 282282
+    },
+    {
+      "label": "Block",
+      "count": 92767
+    },
+    {
+      "label": "Area",
+      "count": 3150
+    },
+    {
+      "label": "Ward",
+      "count": 23
+    },
+    {
+      "label": "Cate",
+      "count": 14
+    }
+  ],
+  "schema_relationship_counts": [
+    {
+      "relation": "locatesAt",
+      "count": 632398
+    },
+    {
+      "relation": "hasType",
+      "count": 372224
+    },
+    {
+      "relation": "in",
+      "count": 329925
+    },
+    {
+      "relation": "belongsTo",
+      "count": 94098
+    },
+    {
+      "relation": "borderBy",
+      "count": 19312
+    },
+    {
+      "relation": "hasODFlow",
+      "count": 529
+    }
+  ]
+}

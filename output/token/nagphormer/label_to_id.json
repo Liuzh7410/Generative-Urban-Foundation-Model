@@ -1,0 +1,8 @@
+{
+  "Amusement": 0,
+  "Business": 1,
+  "Factory": 2,
+  "Life_related": 3,
+  "Meal": 4,
+  "School": 5
+}
