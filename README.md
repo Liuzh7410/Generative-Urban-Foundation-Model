@@ -16,19 +16,3 @@ The main research direction is:
 ```text
 Urban data -> UrbanKG -> UrbanToken -> Transformer / GUFM
 ```
-
-Current tokenization experiments include:
-
-- **Discrete UrbanToken V1**: Area-centered structured tokens extracted from
-  Neo4j triples.
-- **Spatial Discrete UrbanToken V2**: an enriched version that adds geometry
-  derived spatial features such as area size, compactness, distance,
-  direction, density, nearest station/school, and neighbor boundary features.
-
-Key paths:
-
-- `scripts/build_tokyo_ukg.py`: builds the Tokyo UrbanKG in Neo4j.
-- `src/tokenization/`: extracts UrbanToken outputs from Neo4j.
-- `doc/`: design notes and rebuild plans.
-- `urban_data/`: source urban geospatial and OD data.
-- `output/`: generated UrbanToken JSONL files.
