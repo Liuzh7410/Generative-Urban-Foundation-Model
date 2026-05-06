@@ -64,8 +64,8 @@ Format:
 }
 ```
 
-This method represents each `Area` as a structured symbolic memory. The token
-sequence keeps explicit sections for geometry, administrative hierarchy, local
+This method represents each `Area` as a structured symbolic memory. The **token
+sequence** keeps explicit sections for geometry, administrative hierarchy, local
 POI/road inventory, spatial neighbors, and ward-level mobility context.
 
 ### 2. KG Vocabulary Corpus Tokenization
@@ -93,7 +93,7 @@ urban_id_to_token.json
 urban_vocab_stats.json
 ```
 
-Format:
+Format: 
 
 ```json
 {
